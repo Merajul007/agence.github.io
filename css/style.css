@@ -1,0 +1,232 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol {
+    list-style: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+/* COMMON CSS END */
+
+/* NAVBAR CSS START */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+ padding-left: 33px !important;
+ padding-right: 33px !important;
+ font-size: 18px;
+ font-weight: 400;
+ color: #FFFFFF;
+}
+.Contact-btn{
+    height: 56px;
+    width: 162px;
+    border-radius: 10px;
+    background-color: #4756DF;
+    border: none;
+    color: #ffffff;
+}
+/* NAVBAR CSS END */
+
+
+/* BANNER PART START */
+#banner{
+    background: url(../images/agenc-Banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 315px;
+    padding-bottom: 176px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 170px;
+}
+#banner::after{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.banner-text h1{
+width: 950px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 75px;
+line-height: 90px;
+color: #FFFFFF;
+margin: 0 auto;
+}
+.banner-text p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #ffffff;
+width: 621px;
+margin: 0 auto;
+}
+
+
+.get-start{
+    margin-top: 40px;
+    width: 197px;
+    height: 56px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    border: none;
+}
+.get-start a{
+    color: #fff;
+}
+/* BANNER PART END */
+
+
+
+
+
+/* ======================
+SUCCESS PART CSS START
+====================== */
+#success{
+    margin-bottom: 150px;
+}
+.brand{
+    width: 387px;
+    height: 129px;
+    padding-top: 85px;
+    margin-left: 50px;
+    padding-bottom: 86px;
+}
+.success-part{
+    width: 1320px;
+    height: 300px;  
+    background: #E0FFF9;
+    border-radius: 20px;
+}
+
+.brand h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.brand p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #6A4DF4;
+}
+.rating-part {
+    margin-left: 98px;
+    margin-top: 69px;
+    margin-right: 51px;
+    margin-bottom: 126px;
+}
+.rating-part h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.rating-part p{
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+}
+
+
+
+.Services-text h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+.Services-text p{
+    width: 609px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.web-design h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.web-design img{
+    margin-top: 80px;
+}
+.web-design p{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #737373;
+}
+.web-design-part{
+    width: 424px;
+    height: 428px;
+}
+.web-design-part:hover{
+    width: 424px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: all linear .3s;
+}
+    
+    /* ======================
+    SUCCESS PART CSS END
+    ====================== */
+
+
+
+
+
+
+
+    /* ======================
+    Work PART CSS start
+    ====================== */
+#Work{
+background: #F3F3F3;
+margin-top: 100px;   
+}
+.work-text h2 {
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+.work-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 620px;
+    margin: 0 auto;
+}
+
+
+    /* ======================
+    Work PART CSS END
+    ====================== */
